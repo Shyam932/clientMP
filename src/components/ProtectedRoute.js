@@ -9,7 +9,7 @@ export default function ProtectedRoute({ children }) {
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.user);
 
-  const apiPath = "http://localhost:5000";
+  const apiPath = "https://doctor-appointment-mp.onrender.com";
   //get user
   //eslint-disable-next-line
   const getUser = async () => {
