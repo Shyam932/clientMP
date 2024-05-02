@@ -14,7 +14,7 @@ const Login = () => {
     try {
       dispatch(showLoading());
       const res = await axios.post(
-        "http://localhost:5000/api/v1/user/login",
+        "https://doctor-appointment-mp.onrender.com/api/v1/user/login",
         values
       );
       window.location.reload();
